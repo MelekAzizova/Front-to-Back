@@ -1,0 +1,897 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DIANA.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DIANA.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\aos.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\bardy.icon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bardy.icon.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\fancybox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\headroom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\headroom.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\shopify-icon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\shopify-icon.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\bardy.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bardy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\lg.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\lg.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lg.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\lg.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lg.woff"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\shopify-social.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\shopify-social.woff"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\swiper-icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\swiper-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\swiper-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\swiper-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\fonts\\swiper-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\swiper-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\b1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\comment.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\comment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\sb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\sb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\sb3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\blog\\single-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\brand-logo\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\brand-logo\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\brand-logo\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\brand-logo\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\brand-logo\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand-logo\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\1.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\arrow-down.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\cancel-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\cancel-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\ico-select.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ico-select.svg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\ico-select2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\ico-select2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\layer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\layer.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\payment.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\payment.webp"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\play-btn1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\play-btn1.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\qcv-arrow-down.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\qcv-arrow-down.webp"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\icons\\select-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icons\\select-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\photos\\cancel-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\cancel-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\photos\\comment.png",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\comment.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\photos\\gravatar.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\gravatar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\photos\\gravatar2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\photos\\gravatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\banner\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\banner\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\banner\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\banner\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\cart\\mini1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\cart\\mini1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\cart\\mini2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\cart\\mini2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\cart\\table1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\cart\\table1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\cart\\table2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\cart\\table2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\product-single\\nav9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\product-single\\nav9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\shop\\quick-view1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shop\\quick-view1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\slider\\slider-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\slider\\slider-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\slider\\slider-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\slider\\slider-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\slider\\slider-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\testimonial\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\testimonial\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\img\\testimonial\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\aos.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\aos.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\fancybox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\headroom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\headroom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\jquery-main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-main.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\jquery-migrate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-migrate.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\jquery-zoom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\jquery.appear.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.appear.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\slicknav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\js\\waypoint.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoint.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\php\\mail.php",
+      "PackagePath": "staticwebassets\\assets\\php\\mail.php"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\_tableofcontent.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_tableofcontent.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\common\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\common\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\common\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\common\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\common\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_brand-logo.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_brand-logo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_counter.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_counter.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_divider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_feature.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_feature.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_form.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_page-not-found.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_page-not-found.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_section-title.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_section-title.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\componenets\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\componenets\\_testimonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\footer\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\footer\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\header\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\header\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Azizova\\Desktop\\DIANA\\DIANA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DIANA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DIANA.props",
+      "PackagePath": "build\\DIANA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DIANA.props",
+      "PackagePath": "buildMultiTargeting\\DIANA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DIANA.props",
+      "PackagePath": "buildTransitive\\DIANA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
