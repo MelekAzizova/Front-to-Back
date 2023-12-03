@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Pustok_AzMB.ViewModel.SliderVM
+{
+    public class SliderCreateVM
+    {
+       
+        public string ImageUrl { get; set; }
+        [Required, MinLength(5), MaxLength(64)]
+        public string Title { get; set; }
+        [Required, MinLength(5), MaxLength(64)]
+        public string Description { get; set; }
+        public byte Position {  get; set; }
+
+        
+    }
+}
