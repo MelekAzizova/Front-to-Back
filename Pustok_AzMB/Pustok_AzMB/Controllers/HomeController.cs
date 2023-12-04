@@ -8,7 +8,7 @@ namespace Pustok_AzMB.Controllers
     public class HomeController : Controller
     {
         
-
+        
         public async Task<IActionResult> Index()
         {
             using (PustokDbContext db=new PustokDbContext())
