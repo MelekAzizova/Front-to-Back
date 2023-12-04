@@ -9,43 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pustok_AzMB
 build_property.RootNamespace = Pustok_AzMB
-build_property.ProjectDir = C:\Users\Azizova\Desktop\Pustok_AzMB\Pustok_AzMB\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Birinci\Desktop\Front-to-Back\Pustok_AzMB\Pustok_AzMB\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Azizova\Desktop\Pustok_AzMB\Pustok_AzMB
+build_property.MSBuildProjectDirectory = C:\Users\Birinci\Desktop\Front-to-Back\Pustok_AzMB\Pustok_AzMB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/Slider/Create.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/Slider/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/Slider/Index.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/Slider/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Views/Home/Index.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Views/_ViewStart.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Azizova/Desktop/Pustok_AzMB/Pustok_AzMB/Views/Shared/_Layout.cshtml]
+[C:/Users/Birinci/Desktop/Front-to-Back/Pustok_AzMB/Pustok_AzMB/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-phb375o0rr

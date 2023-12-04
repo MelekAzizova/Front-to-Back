@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Admin\Data\**" />
+    <Compile Remove="Areas\Admin\Models\**" />
+    <Content Remove="Areas\Admin\Data\**" />
+    <Content Remove="Areas\Admin\Models\**" />
+    <EmbeddedResource Remove="Areas\Admin\Data\**" />
+    <EmbeddedResource Remove="Areas\Admin\Models\**" />
+    <None Remove="Areas\Admin\Data\**" />
+    <None Remove="Areas\Admin\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\.vs\ProjectEvaluation\pustok.metadata.v7.bin" />
     <None Include="wwwroot\.vs\ProjectEvaluation\pustok.projects.v7.bin" />
     <None Include="wwwroot\.vs\pustok\FileContentIndex\30cc413a-b33c-41e7-84e2-62a4ec616ace.vsidx" />
@@ -24,11 +35,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
 </Project>

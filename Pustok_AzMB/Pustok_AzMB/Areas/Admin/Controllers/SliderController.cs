@@ -15,7 +15,7 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
             using(PustokDbContext context=new PustokDbContext())
             {
 
-                var items = await context.Sliders.Select(s => new SliderListItem
+                var items = await context.Sliders.Select(s => new SliderListItemVM
                 {
                     Title = s.Title,
                     Description = s.Description,
@@ -34,13 +34,17 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
             return View();
    
         }
+        [HttpPost]
 
-        public async Task<IActionResult> Create(SliderCreateVM vm)
+        public async Task<IActionResult> Create(Slider slider)
         {
             if(!ModelState.IsValid)
             {
-                return View(vm);
+                return View(slider);
             }
+            using PustokDbContext context = new PustokDbContext();
+            await context.Sliders.AddAsync(slider);
+            await context.SaveChangesAsync(); 
            
             
             return View();
