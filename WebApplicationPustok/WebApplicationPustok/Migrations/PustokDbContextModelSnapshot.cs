@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Pustok_AzMB.Context;
+using WebApplicationPustok.Context;
 
 #nullable disable
 
@@ -22,7 +22,7 @@ namespace WebApplicationPustok.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Author", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Author", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -43,7 +43,7 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("Authors");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Blog", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Blog", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -78,7 +78,7 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("Blogs");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Category", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -101,7 +101,7 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Product", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -157,7 +157,7 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.ProductImages", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.ProductImages", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -182,7 +182,7 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("ProductImages");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Slider", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Slider", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -212,9 +212,9 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("Sliders");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Blog", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Blog", b =>
                 {
-                    b.HasOne("Pustok_AzMB.Models.Author", "Author")
+                    b.HasOne("WebApplicationPustok.Models.Author", "Author")
                         .WithMany("Blogs")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -223,10 +223,10 @@ namespace WebApplicationPustok.Migrations
                     b.Navigation("Author");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Product", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Product", b =>
                 {
-                    b.HasOne("Pustok_AzMB.Models.Category", "Category")
-                        .WithMany()
+                    b.HasOne("WebApplicationPustok.Models.Category", "Category")
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -234,9 +234,9 @@ namespace WebApplicationPustok.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.ProductImages", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.ProductImages", b =>
                 {
-                    b.HasOne("Pustok_AzMB.Models.Product", "product")
+                    b.HasOne("WebApplicationPustok.Models.Product", "product")
                         .WithMany("productImages")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -245,12 +245,17 @@ namespace WebApplicationPustok.Migrations
                     b.Navigation("product");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Author", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Author", b =>
                 {
                     b.Navigation("Blogs");
                 });
 
-            modelBuilder.Entity("Pustok_AzMB.Models.Product", b =>
+            modelBuilder.Entity("WebApplicationPustok.Models.Category", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("WebApplicationPustok.Models.Product", b =>
                 {
                     b.Navigation("productImages");
                 });

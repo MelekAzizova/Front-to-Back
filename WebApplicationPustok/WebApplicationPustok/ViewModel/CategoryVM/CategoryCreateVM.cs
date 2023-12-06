@@ -1,9 +1,9 @@
-﻿namespace Pustok_AzMB.ViewModel.CategoryVM
-{
-    public class CategoryCreateVM
-    {
-        public string Name { get; set; }
+﻿namespace WebApplicationPustok.ViewModel.CategoryVM;
 
-        public int ParentId { get; set; }
-    }
+    public class CategoryCreateVM
+{
+    public string Name { get; set; }
+
+    public int ParentId { get; set; }
 }
+

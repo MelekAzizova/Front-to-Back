@@ -1,4 +1,4 @@
-﻿namespace Pustok_AzMB.ViewModel.CategoryVM
+﻿namespace WebApplicationPustok.ViewModel.CategoryVM
 {
     public class CategoryListItemVM
     {

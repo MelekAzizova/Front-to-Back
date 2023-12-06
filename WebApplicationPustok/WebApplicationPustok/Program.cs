@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using WebApplicationPustok.Context;
+
 namespace WebApplicationPustok
 {
     public class Program
@@ -6,11 +9,14 @@ namespace WebApplicationPustok
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
+             builder.Services.AddControllersWithViews();
+           
+
+            builder.Services.AddDbContext<PustokDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
 
             var app = builder.Build();
-
+            
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {

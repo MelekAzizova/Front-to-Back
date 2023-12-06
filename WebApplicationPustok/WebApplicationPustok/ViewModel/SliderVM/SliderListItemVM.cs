@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Pustok_AzMB.ViewModel.SliderVM
+namespace  WebApplicationPustok.ViewModel.SliderVM
 {
     public class SliderListItemVM
     {

@@ -1,4 +1,4 @@
-﻿namespace Pustok_AzMB.Models
+﻿namespace WebApplicationPustok.Models
 {
     public class ProductImages
     {

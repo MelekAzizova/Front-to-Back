@@ -1,21 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Pustok_AzMB.Context;
-using System.Diagnostics;
 
-namespace Pustok_AzMB.Controllers
+using WebApplicationPustok.Context;
+
+namespace WebApplicationPustok.Controllers
 {
     public class HomeController : Controller
     {
+        public HomeController(PustokDbContext pd)
+        {
+            _pd = pd;
+        }
+
+        PustokDbContext _pd {  get; }
         
         
         public async Task<IActionResult> Index()
         {
-            using (PustokDbContext db=new PustokDbContext())
-            {
-                var slider = await db.Sliders.ToListAsync();
+           
+                var slider = await _pd.Sliders.ToListAsync();
                 return View(slider);  
-            }
+          
         }
 
         

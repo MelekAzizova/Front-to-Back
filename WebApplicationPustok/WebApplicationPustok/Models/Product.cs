@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace Pustok_AzMB.Models
+namespace WebApplicationPustok.Models
 {
     public class Product
     {

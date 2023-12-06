@@ -1,22 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Pustok_AzMB.Context;
-using Pustok_AzMB.Models;
-using Pustok_AzMB.ViewModel.SliderVM;
-using System.Security.AccessControl;
+using WebApplicationPustok.Context;
+using WebApplicationPustok.Models;
+using WebApplicationPustok.ViewModel.SliderVM;
+using WebApplicationPustok.ViewModel.SliderVM;
 
-namespace Pustok_AzMB.Areas.Admin.Controllers
+namespace WebApplicationPustok.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class SliderController : Controller
     {
-
+        PustokDbContext _pd {  get;  }
         public async Task<IActionResult> Index()
         {
-            using (PustokDbContext context = new PustokDbContext())
-            {
+           
 
-                var items = await context.Sliders.Select(s => new SliderListItemVM
+                var items = await _pd.Sliders.Select(s => new SliderListItemVM
                 {
                     Title = s.Title,
                     Description = s.Description,
@@ -25,7 +24,7 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
                     Id = s.Id
                 }).ToListAsync();
                 return View(items);
-            }
+            
 
         }
 
@@ -50,7 +49,7 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
                 return View(vm);
             }
 
-            using PustokDbContext db = new PustokDbContext();
+           
             Slider slider = new Slider
             {
                 Title = vm.Title,
@@ -64,8 +63,8 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
 
 
             };
-            await db.Sliders.AddAsync(slider);
-            await db.SaveChangesAsync();
+            await _pd.Sliders.AddAsync(slider);
+            await _pd.SaveChangesAsync();
             return View();
 
 
@@ -74,11 +73,11 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
         {
             
             if (id == null) return BadRequest();
-            using PustokDbContext pd = new();
-            var data = await pd.Sliders.FindAsync(id);
+            
+            var data = await _pd.Sliders.FindAsync(id);
             if (data == null) return NotFound();
-            pd.Sliders.Remove(data);
-            await pd.SaveChangesAsync();
+            _pd.Sliders.Remove(data);
+            await _pd.SaveChangesAsync();
             //TempData["Response"] = new
             //{
             //    Icon = "Success",
@@ -92,8 +91,8 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id<=0) return BadRequest();
-            using PustokDbContext pd = new();
-            var data = await pd.Sliders.FindAsync(id);
+            
+            var data = await _pd.Sliders.FindAsync(id);
             if(data==null) return NotFound();
             return View(new SliderUpdateVM
             {
@@ -118,8 +117,8 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
             {
                 return View(vm);
             }
-            using PustokDbContext pd = new();
-            var data = await pd.Sliders.FindAsync(id);
+
+            var data = await _pd.Sliders.FindAsync(id);
             if (data == null) return NotFound();
             data.Title = vm.Title;
             data.Description = vm.Description;
@@ -129,7 +128,7 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
                 1 => true,
                 0 => false
             };
-            await pd.SaveChangesAsync();
+            await _pd.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
 

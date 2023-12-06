@@ -1,20 +1,28 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Pustok_AzMB.Models;
 
-namespace Pustok_AzMB.Context
+using WebApplicationPustok.Models;
+
+namespace WebApplicationPustok.Context
 {
     public class PustokDbContext:DbContext
     {
+        //public PustokDbContext(PustokDbContext context)
+        //{
+        //    _context = context;
+        //}
+
+        PustokDbContext _context {  get;  }
+        public PustokDbContext(DbContextOptions<PustokDbContext> opt) : base(opt) { }
         public DbSet<Slider> Sliders { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server=AZIZOVA\SQLEXPRESS02;Database=WebApplicationPustok;Trusted_Connection=true");
-            base.OnConfiguring(optionsBuilder);
-        }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Author> Authors { get; set; }
         
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer(@"Server=DESKTOP-RD495BO\SQLEXPRESS;Database=WebApplicationPustok;Trusted_Connection=true");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
     }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Azizova\\Desktop\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj": {}
+    "C:\\Users\\Birinci\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Azizova\\Desktop\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj": {
+    "C:\\Users\\Birinci\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azizova\\Desktop\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj",
+        "projectUniqueName": "C:\\Users\\Birinci\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj",
         "projectName": "WebApplicationPustok",
-        "projectPath": "C:\\Users\\Azizova\\Desktop\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj",
-        "packagesPath": "C:\\Users\\Azizova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azizova\\Desktop\\WebApplicationPustok\\WebApplicationPustok\\obj\\",
+        "projectPath": "C:\\Users\\Birinci\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\WebApplicationPustok.csproj",
+        "packagesPath": "C:\\Users\\Birinci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Birinci\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Azizova\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Birinci\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.25, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
