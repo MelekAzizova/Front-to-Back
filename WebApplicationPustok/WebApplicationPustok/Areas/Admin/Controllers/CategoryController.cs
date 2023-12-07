@@ -11,6 +11,11 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
     {
         PustokDbContext _pd {  get; }
 
+        public CategoryController(PustokDbContext pd)
+        {
+            _pd = pd;
+        }
+
         public async Task<IActionResult> Index()
         {
            

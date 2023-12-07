@@ -11,6 +11,12 @@ namespace WebApplicationPustok.Areas.Admin.Controllers
     public class SliderController : Controller
     {
         PustokDbContext _pd {  get;  }
+
+        public SliderController(PustokDbContext pd)
+        {
+            _pd = pd;
+        }
+
         public async Task<IActionResult> Index()
         {
            

@@ -1,14 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+
 using WebApplicationPustok.Areas.Admin.ViewModels;
 using WebApplicationPustok.Context;
-using WebApplicationPustok.Models;
+
 using WebApplicationPustok.ViewModel.ProductVM;
 using WebApplicationPustok.ViewModel.SliderVM;
 
-namespace WebApplicationPustok.Areas.Admin.Controllers
+namespace WebApplicationPustok.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
@@ -19,12 +18,12 @@ namespace WebApplicationPustok.Areas.Admin.Controllers
                 _db = dbContext;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var products =  _db.Products.Include(i => i.productImages).ToList();    
+            var products =  _db.Products.Include(i => i.productImages).ToList();
             AdminProductListItemVM items = new AdminProductListItemVM();
 
-          _db.Products.Select(p => new AdminProductListItemVM
+         var x = await _db.Products.Select(p => new AdminProductListItemVM
           { 
                 Id = p.Id,
                 Name = p.Name,
@@ -33,44 +32,48 @@ namespace WebApplicationPustok.Areas.Admin.Controllers
                 CostPrice = p.CostPrice,
                 Discount = p.Discount,
                 Category = p.Category,
-                ImageUrl = p.ImageUrl,
+              
                 IsDeleted = p.IsDeleted,
                 Quantity = p.Quantity,
                 SellPrice = p.SellPrice ,
                 ProductCode=p.ProductCode,
-                ProductId=p.ProductId,
+                
                 CategoryId=p.CategoryId
 
       
-         });
+         }).ToListAsync();
            
-            return View(products);
+            return View(x);
         }
            
             public IActionResult Create()
             {
                
 
-                ViewBag.Categories = _db.Categories;
+                ViewBag.Categories = _db.Categories.ToList();
                 return View();
             }
 
         [HttpPost]
         public async Task<IActionResult> Create(ProductCreateVM vm)
         {
-          
+            ViewBag.Categories = _db.Categories.ToList();
             if (!ModelState.IsValid)
             {
+               
                 return View(vm);
             }
-            if (await _db.Categories.AnyAsync(x => x.Name == vm.Name))
+            if (await _db.Products.AnyAsync(x => x.Name == vm.Name))
             {
                 ModelState.AddModelError("Name", "Name already exist ");
+
                 return View(vm);
             }
-            await _db.Categories.AddAsync(new WebApplicationPustok.Models.Category
+            await _db.Products.AddAsync(new WebApplicationPustok.Models.Product
             {
-                Name = vm.Name,
+             
+               
+                Name = vm.Name
                 
             });
             await _db.SaveChangesAsync();
@@ -130,4 +133,4 @@ namespace WebApplicationPustok.Areas.Admin.Controllers
     }
 
 }
-}
+

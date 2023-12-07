@@ -23,7 +23,7 @@ namespace WebApplicationPustok.ViewModel.ProductVM
         public string ImageUrl { get; set; }
         public string ProductCode { get; set; }
 
-        public int ProductId { get; set; }
+       
         public List<ProductImages> productImages { get; set; }
         public int CategoryId { get; set; }
        
