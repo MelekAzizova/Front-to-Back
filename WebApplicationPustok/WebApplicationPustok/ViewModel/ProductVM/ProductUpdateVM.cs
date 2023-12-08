@@ -9,8 +9,8 @@ namespace WebApplicationPustok.ViewModel.ProductVM
         [MaxLength(64)]
         public string Name { get; set; }
         [MaxLength(128)]
-        public string? Title { get; set; }
-        public string? Description { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
         [Column(TypeName = "smallmoney")]
         public decimal SellPrice { get; set; }
         [Column(TypeName = "smallmoney")]
@@ -18,11 +18,11 @@ namespace WebApplicationPustok.ViewModel.ProductVM
         [Range(0, 100)]
         public float Discount { get; set; }
         public ushort Quantity { get; set; }
-        public string ImageUrl { get; set; }
+       
         public string ProductCode { get; set; }
 
-        public int ProductId { get; set; }
-        public List<ProductImages> productImages { get; set; }
+       
+       // public List<ProductImages> productImages { get; set; }
         public int CategoryId { get; set; }
     }
 }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 using WebApplicationPustok.Areas.Admin.ViewModels;
 using WebApplicationPustok.Context;
-
+using WebApplicationPustok.Models;
 using WebApplicationPustok.ViewModel.ProductVM;
 using WebApplicationPustok.ViewModel.SliderVM;
 
@@ -48,9 +48,10 @@ namespace WebApplicationPustok.Controllers
            
             public IActionResult Create()
             {
-               
 
-                ViewBag.Categories = _db.Categories.ToList();
+                 ViewBag.Categories = _db.Categories;
+
+               //ViewBag.Categories = _db.Categories.ToList();
                 return View();
             }
 
@@ -65,47 +66,77 @@ namespace WebApplicationPustok.Controllers
             }
             if (await _db.Products.AnyAsync(x => x.Name == vm.Name))
             {
-                ModelState.AddModelError("Name", "Name already exist ");
+                ModelState.AddModelError("Name", "Name already exist");
 
                 return View(vm);
             }
-            await _db.Products.AddAsync(new WebApplicationPustok.Models.Product
+
+            //await _db.Products.AddAsync(new WebApplicationPustok.Models.Product
+            //{
+
+
+            //    Name = vm.Name,
+            //    Title = vm.Title,
+            //    Description = vm.Description,
+            //    CostPrice = vm.CostPrice,
+            //    Discount = vm.Discount,
+
+            //    Quantity = vm.Quantity,
+            //    SellPrice = vm.SellPrice,
+            //    ProductCode = vm.ProductCode,
+
+
+            //    CategoryId = vm.CategoryId
+
+
+            //});
+            
+            Product product = new Product
             {
-             
-               
-                Name = vm.Name
-                
-            });
+                Name = vm.Name,
+                Title = vm.Title,
+                Description = vm.Description,
+                CostPrice = vm.CostPrice,
+                Discount = vm.Discount,
+
+                Quantity = vm.Quantity,
+                SellPrice = vm.SellPrice,
+                ProductCode = vm.ProductCode,
+
+                CategoryId = vm.CategoryId
+
+            };
+            await _db.Products.AddAsync(product);
             await _db.SaveChangesAsync();
-
-
-
             return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Update(int? id)
         {
-            if (id == null || id <= 0) return BadRequest();
+            if (id == null || id <= 0) return BadRequest(); 
            
-            var data = await _db.Sliders.FindAsync(id);
+            var data = await _db.Products.FindAsync(id);
             if (data == null) return NotFound();
-            return View(new SliderUpdateVM
+            return View(new ProductUpdateVM
             {
 
+                Name = data.Name,
                 Title = data.Title,
                 Description = data.Description,
-                ImageUrl = data.ImageUrl,
-                Position = data.IsLeft switch
-                {
-                    true => 1,
-                    false => 0
-                }
+                CostPrice = data.CostPrice,
+                Discount = data.Discount,
+                Quantity = data.Quantity,
+                SellPrice = data.SellPrice,
+                ProductCode = data.ProductCode,
+
+                CategoryId = data.CategoryId
+
             });
 
         }
         [HttpPost]
 
-        public async Task<IActionResult> Update(int? id, SliderUpdateVM vm)
+        public async Task<IActionResult> Update(int? id, ProductUpdateVM vm)
         {
             if (id == null || id <= 0) return BadRequest();
             if (!ModelState.IsValid)
@@ -113,21 +144,39 @@ namespace WebApplicationPustok.Controllers
                 return View(vm);
             }
            
-            var data = await _db.Sliders.FindAsync(id);
+            var data = await _db.Products.FindAsync(id);
             if (data == null) return NotFound();
+            data.Name = vm.Name;
             data.Title = vm.Title;
             data.Description = vm.Description;
-            data.ImageUrl = vm.ImageUrl;
-            data.IsLeft = vm.Position switch
-            {
-                1 => true,
-                0 => false
-            };
+            data.CostPrice = vm.CostPrice;
+            data.Discount = vm.Discount;
+
+            data.Quantity = vm.Quantity;
+            data.SellPrice = vm.SellPrice;
+            data.ProductCode = vm.ProductCode;
+
+            data.CategoryId = vm.CategoryId;
+
+
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
 
 
+
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+
+            if (id == null) return BadRequest();
+
+            var data = await _db.Products.FindAsync(id);
+            if (data == null) return NotFound();
+            _db.Products.Remove(data);
+            await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
 
         }
     }

@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 using WebApplicationPustok.Context;
 using WebApplicationPustok.ViewModel.CategoryVM;
+using WebApplicationPustok.ViewModel.ProductVM;
 
 namespace Pustok_AzMB.Areas.Admin.Controllers
 {
@@ -57,5 +58,48 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
 
 
         }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id == null || id <= 0) return BadRequest();
+
+            var data = await _pd.Categories.FindAsync(id);
+            if (data == null) return NotFound();
+            return View(new CategoryUpdateVM
+            {
+                Id=data.Id,
+                Name = data.Name,
+                IsDeleted=data.IsDeleted,
+                ParentId = data.ParentId
+                 
+            });
+
+        }
+        [HttpPost]
+
+        public async Task<IActionResult> Update(int? id, CategoryUpdateVM vm)
+        {
+            if (id == null || id <= 0) return BadRequest();
+            if (!ModelState.IsValid)
+            {
+                return View(vm);
+            }
+
+            var data = await _pd.Categories.FindAsync(id);
+            if (data == null) return NotFound();
+            data.Name = vm.Name;
+            data.Id= vm.Id;
+            data.IsDeleted= vm.IsDeleted;
+            data.ParentId = vm.ParentId;
+
+
+            await _pd.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
+
+
+
+        }
+
     }
 }

@@ -93,7 +93,7 @@ namespace WebApplicationPustok.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ParentId")
+                    b.Property<int?>("ParentId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -120,10 +120,6 @@ namespace WebApplicationPustok.Migrations
 
                     b.Property<float>("Discount")
                         .HasColumnType("real");
-
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");

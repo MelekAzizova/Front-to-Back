@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplicationPustok.Context;
+using WebApplicationPustok.Helpers;
 
 namespace WebApplicationPustok
 {
@@ -13,7 +14,9 @@ namespace WebApplicationPustok
            
 
             builder.Services.AddDbContext<PustokDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
+
+            PathConstants.RootPath = builder.Environment.WebRootPath;
 
             var app = builder.Build();
             

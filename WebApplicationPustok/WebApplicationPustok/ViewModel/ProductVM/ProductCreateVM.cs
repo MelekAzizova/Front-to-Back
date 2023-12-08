@@ -20,11 +20,10 @@ namespace WebApplicationPustok.ViewModel.ProductVM
         [Range(0, 100)]
         public float Discount { get; set; }
         public ushort Quantity { get; set; }
-        public string ImageUrl { get; set; }
         public string ProductCode { get; set; }
-
+        public bool IsDeleted { get; set; } = false;
        
-        public List<ProductImages> productImages { get; set; }
+        public List<ProductImages>? productImages { get; set; }
         public int CategoryId { get; set; }
        
        

@@ -18,11 +18,11 @@ namespace WebApplicationPustok.Models
         [Range(0, 100)]
         public float Discount { get; set; }
         public ushort Quantity { get; set; }
-        public string ImageUrl { get; set; }
+        
         public string ProductCode { get; set; }
         
         public int  ProductId { get; set; }
-        public List<ProductImages> productImages { get; set; }
+        public List<ProductImages>? productImages { get; set; }
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
         public bool IsDeleted { get; set; } = false;
