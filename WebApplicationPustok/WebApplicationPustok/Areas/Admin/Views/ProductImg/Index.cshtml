@@ -1,0 +1,98 @@
+﻿@* @model List<AdminProductImagesVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Product Images</h1>
+        <a asp-action="Create" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            Create Product Images
+        </a>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Image Path</th>
+                            <th colspan="2">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @if (item.ImagePath.Contains("://"))
+                                    {
+                                        <img width="80" src="@item.ImagePath" />
+                                    }
+                                    else
+                                    {
+                                        <img width="80" src="~/@item.ImagePath" />
+                                    }
+                                </td>
+                                <td><a asp-action="Update" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Update</a></td>
+                                <td><a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div> *@
+@model List<AdminProductImagesVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Product Images</h1>
+        <a asp-action="Create" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            Create Product Images
+        </a>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Image Path</th>
+                            <th colspan="2">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @if (item.ImagePath.Contains("://"))
+                                    {
+                                        <img width="80" src="@item.ImagePath" />
+                                    }
+                                    else
+                                    {
+                                        <img width="80" src="~/@item.ImagePath" />
+                                    }
+                                </td>
+                                <td><a asp-action="Update" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Update</a></td>
+                                <td><a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

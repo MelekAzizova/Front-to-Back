@@ -8,7 +8,7 @@
         <a asp-action="Create" class="btn btn-outline-success">Create</a>
     </div>
     <div class="card-body">
-        <div class="table-responsive">
+        <div class="table-responsive ">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                 <td>Id</td>
@@ -22,9 +22,10 @@
                 <td>Discount</td>
                
                 <td>SellPrice</td>
+                <td>IsDeleted</td>
                 
                
-                <th colspan="2">Action</th>
+                <th class="text-center" colspan="2">Action</th>
                 </thead>
                 <tbody>
                     @if (Model != null)

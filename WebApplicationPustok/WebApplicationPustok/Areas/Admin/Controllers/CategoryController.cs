@@ -101,5 +101,19 @@ namespace Pustok_AzMB.Areas.Admin.Controllers
 
         }
 
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id==null || id <= 0)
+            {
+                return BadRequest();
+            }
+            var data = await _pd.Categories.FindAsync(id);
+            if(data==null) return NotFound();
+            _pd.Categories.Remove(data);
+            await _pd.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        
+
     }
 }
