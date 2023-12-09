@@ -20,9 +20,9 @@ namespace WebApplicationPustok.Models
         public ushort Quantity { get; set; }
         
         public string ProductCode { get; set; }
-        
+        public string ImagrUrl {  get; set; }
         public int  ProductId { get; set; }
-        public List<ProductImages>? productImages { get; set; }
+       // public List<ProductImages>? productImages { get; set; }
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
         public bool IsDeleted { get; set; } = false;

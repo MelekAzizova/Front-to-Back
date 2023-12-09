@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 using WebApplicationPustok.Areas.Admin.ViewModels;
 using WebApplicationPustok.Context;
+using WebApplicationPustok.Helpers;
 using WebApplicationPustok.Models;
 using WebApplicationPustok.ViewModel.ProductVM;
 using WebApplicationPustok.ViewModel.SliderVM;
@@ -13,18 +14,20 @@ namespace WebApplicationPustok.Controllers
     public class ProductController : Controller
     {
          PustokDbContext _db;
-        public ProductController(PustokDbContext dbContext)
+        IWebHostEnvironment _env;
+        public ProductController(PustokDbContext dbContext, IWebHostEnvironment env = null)
         {
-                _db = dbContext;
+            _db = dbContext;
+            _env = env;
         }
 
         public async Task<IActionResult> Index()
         {
-            var products =  _db.Products.Include(i => i.productImages).ToList();
+            //var products =  _db.Products.Include(i => i.productImages).ToList();
             AdminProductListItemVM items = new AdminProductListItemVM();
 
-         var x = await _db.Products.Select(p => new AdminProductListItemVM
-          { 
+            var x = await _db.Products.Select(p => new AdminProductListItemVM
+            {
                 Id = p.Id,
                 Name = p.Name,
                 Title = p.Title,
@@ -32,16 +35,18 @@ namespace WebApplicationPustok.Controllers
                 CostPrice = p.CostPrice,
                 Discount = p.Discount,
                 Category = p.Category,
-              
+
                 IsDeleted = p.IsDeleted,
                 Quantity = p.Quantity,
-                SellPrice = p.SellPrice ,
-                ProductCode=p.ProductCode,
-                
-                CategoryId=p.CategoryId
+                SellPrice = p.SellPrice,
+                ProductCode = p.ProductCode,
+                ImgFile = p.ImagrUrl,
+   
 
-      
-         }).ToListAsync();
+                CategoryId = p.CategoryId
+
+
+            }).ToListAsync();
            
             return View(x);
         }
@@ -70,27 +75,9 @@ namespace WebApplicationPustok.Controllers
 
                 return View(vm);
             }
-
-            //await _db.Products.AddAsync(new WebApplicationPustok.Models.Product
-            //{
-
-
-            //    Name = vm.Name,
-            //    Title = vm.Title,
-            //    Description = vm.Description,
-            //    CostPrice = vm.CostPrice,
-            //    Discount = vm.Discount,
-
-            //    Quantity = vm.Quantity,
-            //    SellPrice = vm.SellPrice,
-            //    ProductCode = vm.ProductCode,
-
-
-            //    CategoryId = vm.CategoryId
-
-
-            //});
             
+            
+
             Product product = new Product
             {
                 Name = vm.Name,
@@ -103,7 +90,8 @@ namespace WebApplicationPustok.Controllers
                 SellPrice = vm.SellPrice,
                 ProductCode = vm.ProductCode,
 
-                CategoryId = vm.CategoryId
+                CategoryId = vm.CategoryId,
+                ImagrUrl = await vm.ImgFile.SaveAsync(PathConstants.Product)
 
             };
             await _db.Products.AddAsync(product);

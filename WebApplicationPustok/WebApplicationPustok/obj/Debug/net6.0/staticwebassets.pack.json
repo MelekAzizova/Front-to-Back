@@ -5,54 +5,6 @@
       "PackagePath": "staticwebassets\\WebApplicationPustok.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\1aziyglj.svc1.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\1aziyglj.svc1.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\bw450i3s.5ui5.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\bw450i3s.5ui5.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\gvb4murs.s337.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\gvb4murs.s337.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\nvkufpwz.ju4Screenshot (1).png",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\nvkufpwz.ju4Screenshot (1).png"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\ocumqjn0.tuhScreenshot (2).png",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\ocumqjn0.tuhScreenshot (2).png"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\piczo5yg.kjj3.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\piczo5yg.kjj3.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\tv3s34u4.i131.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\tv3s34u4.i131.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\ueikdic2.aj1Screenshot (1).png",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\ueikdic2.aj1Screenshot (1).png"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\vyaa3xtw.zhqScreenshot (1).png",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\vyaa3xtw.zhqScreenshot (1).png"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\xb3et5li.2iy5.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\xb3et5li.2iy5.jfif"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\ycjnitah.1b0Screenshot (2).png",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\ycjnitah.1b0Screenshot (2).png"
-    },
-    {
-      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\ProductImg\\ypnitcf4.nao1.jfif",
-      "PackagePath": "staticwebassets\\Admin\\ProductImg\\ypnitcf4.nao1.jfif"
-    },
-    {
       "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\Admin\\css\\sb-admin-2.css"
     },
@@ -107,6 +59,14 @@
     {
       "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\js\\sb-admin-2.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\sb-admin-2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\product\\Screenshot (1).png",
+      "PackagePath": "staticwebassets\\Admin\\product\\Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\product\\download.jpg",
+      "PackagePath": "staticwebassets\\Admin\\product\\download.jpg"
     },
     {
       "Id": "C:\\Users\\Melek\\Desktop\\Front-to-Back\\WebApplicationPustok\\WebApplicationPustok\\wwwroot\\Admin\\vendor\\bootstrap\\js\\bootstrap.bundle.js",

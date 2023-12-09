@@ -19,6 +19,7 @@
                 <td>CostPrice</td>
                 <td>ProductCode</td>
                 <td>Category</td>
+                <td>ImgFile</td>
                 <td>Discount</td>
                
                 <td>SellPrice</td>
@@ -41,6 +42,17 @@
                                 <td>@item.CostPrice</td>
                                 <td>@item.ProductCode</td>
                                 <td>@item.Category</td>
+                                <td>
+                                    @if (item.ImgFile.Contains("://"))
+                                    {
+                                        <img width="80" src="@item.ImgFile" />
+                                    }
+                                    else
+                                    {
+                                        <img width="80" src="~/@item.ImgFile" />
+                                    }
+
+                                </td>
                                 <td>@item.Discount</td>
                                
                                 <td>@item.SellPrice</td>

@@ -18,7 +18,7 @@ namespace WebApplicationPustok.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Author> Authors { get; set; }
-        public DbSet<ProductImages> ProductImages { get; set; }
+       // public DbSet<ProductImages> ProductImages { get; set; }
         
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

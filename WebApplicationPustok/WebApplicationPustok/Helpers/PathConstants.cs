@@ -1,8 +1,8 @@
 ﻿namespace WebApplicationPustok.Helpers
 {
-    public static class PathConstants
+    public class PathConstants
     {
-        public static string ProductImages => Path.Combine("Admin","ProductImg");
+        public static string Product => Path.Combine("Admin", "product");
         public static string RootPath { get; set; }
     }
 }

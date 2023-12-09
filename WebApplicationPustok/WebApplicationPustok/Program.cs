@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplicationPustok.Context;
 using WebApplicationPustok.Helpers;
 
+
 namespace WebApplicationPustok
 {
     public class Program
@@ -16,7 +17,7 @@ namespace WebApplicationPustok
             builder.Services.AddDbContext<PustokDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
 
-            PathConstants.RootPath = builder.Environment.WebRootPath;
+            
 
             var app = builder.Build();
             
@@ -38,6 +39,9 @@ namespace WebApplicationPustok
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+            PathConstants.RootPath = builder.Environment.WebRootPath;
 
             app.Run();
         }

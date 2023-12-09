@@ -22,8 +22,9 @@ namespace WebApplicationPustok.ViewModel.ProductVM
         public ushort Quantity { get; set; }
         public string ProductCode { get; set; }
         public bool IsDeleted { get; set; } = false;
+        public IFormFile ImgFile { get; set; }
        
-        public List<ProductImages>? productImages { get; set; }
+      //  public List<ProductImages>? productImages { get; set; }
         public int CategoryId { get; set; }
        
        

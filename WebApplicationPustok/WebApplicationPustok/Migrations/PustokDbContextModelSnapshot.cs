@@ -121,6 +121,10 @@ namespace WebApplicationPustok.Migrations
                     b.Property<float>("Discount")
                         .HasColumnType("real");
 
+                    b.Property<string>("ImagrUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -151,31 +155,6 @@ namespace WebApplicationPustok.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("WebApplicationPustok.Models.ProductImages", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("WebApplicationPustok.Models.Slider", b =>
@@ -230,17 +209,6 @@ namespace WebApplicationPustok.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("WebApplicationPustok.Models.ProductImages", b =>
-                {
-                    b.HasOne("WebApplicationPustok.Models.Product", "product")
-                        .WithMany("productImages")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("product");
-                });
-
             modelBuilder.Entity("WebApplicationPustok.Models.Author", b =>
                 {
                     b.Navigation("Blogs");
@@ -249,11 +217,6 @@ namespace WebApplicationPustok.Migrations
             modelBuilder.Entity("WebApplicationPustok.Models.Category", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("WebApplicationPustok.Models.Product", b =>
-                {
-                    b.Navigation("productImages");
                 });
 #pragma warning restore 612, 618
         }

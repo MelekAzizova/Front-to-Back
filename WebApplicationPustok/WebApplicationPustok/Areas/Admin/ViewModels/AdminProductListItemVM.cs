@@ -24,7 +24,7 @@ namespace WebApplicationPustok.Areas.Admin.ViewModels
         public string ProductCode { get; set; }
 
        
-        public List<ProductImages> productImages { get; set; }
+        public string ImgFile { get; set; }
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
         public bool IsDeleted { get; set; } = false;
