@@ -187,6 +187,68 @@ namespace WebApplicationPustok.Migrations
                     b.ToTable("Sliders");
                 });
 
+            modelBuilder.Entity("WebApplicationPustok.Models.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Brand")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ProductCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+                });
+
+            modelBuilder.Entity("WebApplicationPustok.Models.TagProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("TagsProduct");
+                });
+
             modelBuilder.Entity("WebApplicationPustok.Models.Blog", b =>
                 {
                     b.HasOne("WebApplicationPustok.Models.Author", "Author")
@@ -209,6 +271,25 @@ namespace WebApplicationPustok.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("WebApplicationPustok.Models.TagProduct", b =>
+                {
+                    b.HasOne("WebApplicationPustok.Models.Product", "Product")
+                        .WithMany("TagProducts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplicationPustok.Models.Tag", "Tag")
+                        .WithMany("TagProducts")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("WebApplicationPustok.Models.Author", b =>
                 {
                     b.Navigation("Blogs");
@@ -217,6 +298,16 @@ namespace WebApplicationPustok.Migrations
             modelBuilder.Entity("WebApplicationPustok.Models.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("WebApplicationPustok.Models.Product", b =>
+                {
+                    b.Navigation("TagProducts");
+                });
+
+            modelBuilder.Entity("WebApplicationPustok.Models.Tag", b =>
+                {
+                    b.Navigation("TagProducts");
                 });
 #pragma warning restore 612, 618
         }

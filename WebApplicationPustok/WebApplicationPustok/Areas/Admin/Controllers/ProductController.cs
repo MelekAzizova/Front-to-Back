@@ -6,7 +6,7 @@ using WebApplicationPustok.Context;
 using WebApplicationPustok.Helpers;
 using WebApplicationPustok.Models;
 using WebApplicationPustok.ViewModel.ProductVM;
-using WebApplicationPustok.ViewModel.SliderVM;
+
 
 namespace WebApplicationPustok.Controllers
 {
@@ -54,15 +54,25 @@ namespace WebApplicationPustok.Controllers
             public IActionResult Create()
             {
 
-                 ViewBag.Categories = _db.Categories;
+                // ViewBag.Categories = _db.Categories;
 
-               //ViewBag.Categories = _db.Categories.ToList();
+               ViewBag.Categories = _db.Categories.ToList();
                 return View();
             }
 
         [HttpPost]
         public async Task<IActionResult> Create(ProductCreateVM vm)
+           
         {
+            
+            if (!vm.ImgFile.IsCorrectType("image"))
+            {
+                ModelState.AddModelError("ImgFile", "Wrong file type");
+            }
+            //if (!vm.ImgFile.IsValidSize(1f))
+            //{
+            //    ModelState.AddModelError("ImgFile", "Wrong file size");
+            //}
             ViewBag.Categories = _db.Categories.ToList();
             if (!ModelState.IsValid)
             {
@@ -75,8 +85,7 @@ namespace WebApplicationPustok.Controllers
 
                 return View(vm);
             }
-            
-            
+
 
             Product product = new Product
             {

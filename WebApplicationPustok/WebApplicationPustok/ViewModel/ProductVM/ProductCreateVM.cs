@@ -26,6 +26,7 @@ namespace WebApplicationPustok.ViewModel.ProductVM
        
       //  public List<ProductImages>? productImages { get; set; }
         public int CategoryId { get; set; }
+        public IEnumerable<int> TagIds {  get; set; }
        
        
     }

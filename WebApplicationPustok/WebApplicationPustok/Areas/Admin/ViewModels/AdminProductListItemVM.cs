@@ -18,7 +18,7 @@ namespace WebApplicationPustok.Areas.Admin.ViewModels
         [Column(TypeName = "smallmoney")]
         public decimal CostPrice { get; set; }
         [Range(0, 100)]
-        public float Discount { get; set; }
+         public float Discount { get; set; }
         public ushort Quantity { get; set; }
       
         public string ProductCode { get; set; }

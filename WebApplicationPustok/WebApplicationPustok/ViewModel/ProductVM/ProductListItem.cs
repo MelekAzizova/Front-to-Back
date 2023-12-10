@@ -20,6 +20,7 @@ namespace WebApplicationPustok.ViewModel.ProductVM
         public ushort Quantity { get; set; }
 
         public string ProductCode { get; set; }
+        public string Image { get; set; }
 
         public int ProductId { get; set; }
        // public List<ProductImages>? productImages { get; set; }

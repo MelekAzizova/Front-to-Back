@@ -10,5 +10,6 @@
         public DateTime CreatAt { get; set; } 
         public DateTime UpdatAt { get; set; }
         public bool IsDeleted { get; set; }
+        
     }
 }

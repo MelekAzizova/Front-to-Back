@@ -21,10 +21,12 @@ namespace WebApplicationPustok.Models
         
         public string ProductCode { get; set; }
         public string ImagrUrl {  get; set; }
+      
         public int  ProductId { get; set; }
-       // public List<ProductImages>? productImages { get; set; }
+        //public List<ProductImages>? productImages { get; set; }
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
         public bool IsDeleted { get; set; } = false;
+        public ICollection<TagProduct>? TagProducts { get; set; }
     }
 }
